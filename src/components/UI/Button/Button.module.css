@@ -18,7 +18,10 @@
 .Success {
   color: #5c9210;
 }
-
+.Success:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
 .Danger {
   color: #944317;
 }
